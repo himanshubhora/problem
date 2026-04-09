@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;background: #2A7B9B;
+color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 25%;
+  margin-right: 10px;
+}
+
+nav a {
+
+  color: rgb(246, 246, 246);
+    margin: 50px;
+  text-decoration: none;
+}
+
+/* Slider */
+/* .slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  animation: slide 20s infinite;
+}
+
+.slides img {
+width: 100%;
+}
+
+@keyframes slide {
+  0% {transform: translateX(0);}
+  33% {transform: translateX(-100%);}
+  66% {transform: translateX(-150%);}
+  100% {transform: translateX(-200%);}
+} */
+
+/* Button */
+.center {
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Form */
+.form-container {
+  display: none;
+  width: 80%;
+  margin: auto;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form textarea, form select {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+/* Footer *//* Footer */
+.footer {
+  background: #2c3e50;
+  color: white;
+  padding: 40px 20px 10px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Boxes */
+.footer-box {
+  flex: 1;
+  min-width: 220px;
+  margin: 10px;
+}
+
+.footer-box h3 {
+  margin-bottom: 15px;
+  color: #1abc9c;
+}
+
+.footer-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-box ul li {
+  margin: 8px 0;
+}
+
+/* Social Icons */
+.social-icons a {
+  display: inline-block;
+  margin: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  background: #34495e;
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  background: #1abc9c;
+}
+
+/* Bottom */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #555;
+  padding-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .social-icons a {
+    margin: 8px;
+  }
+}
+/* M/* Make layout flexible */
